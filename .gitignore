@@ -1,15 +1,23 @@
 # Ignore everything
 *
 
-# Except .gitignore, .md, .py, .cpp, .h, .hpp .R, .jl, files
+# And these directories
+CPP/*/build
+CPP/*/test
+
+# Except .gitignore, .md, .py, .R, .jl, .vim, .vader files
 !.gitignore
 !*.md
 !*.py
-!*.cpp
-!*.h
-!*.hpp
 !*.R
 !*.jl
+!*.vim
+!*.vader
+
+# Except .cpp, hpp, .h files in CPP folder
+!CPP/*/*.cpp
+!CPP/*/*.hpp
+!CPP/*/*.h
 
 # Except LICENSE file
 !LICENSE
