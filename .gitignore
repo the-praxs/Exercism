@@ -1,7 +1,7 @@
 # Ignore everything
 *
 
-# Except .gitignore, .md, .py, .cpp, .h, .hpp .R, .jl, files
+# Except .gitignore, .md, .py, .cpp, .h, .hpp .R, .jl, .vim, .vader files
 !.gitignore
 !*.md
 !*.py
@@ -10,6 +10,8 @@
 !*.hpp
 !*.R
 !*.jl
+!*.vim
+!*.vader
 
 # Except LICENSE file
 !LICENSE
